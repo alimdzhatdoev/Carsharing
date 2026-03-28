@@ -1,0 +1,33 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Processed/cache (raw demo CSV may be committed or regenerated)
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Artifacts from training
+artifacts/models/*
+artifacts/metrics/*
+artifacts/reports/*
+artifacts/encoders/*
+!artifacts/models/.gitkeep
+!artifacts/metrics/.gitkeep
+!artifacts/reports/.gitkeep
+!artifacts/encoders/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
