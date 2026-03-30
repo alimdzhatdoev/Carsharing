@@ -64,7 +64,7 @@
 │   ├── raw/                      # Вход: trips_demo.csv и т.п.
 │   ├── processed/                # test_split.csv, профили валидации
 │   └── external/                 # Зарезервировано под внешние справочники
-├── docs/                         # ВКР, 01–09, PROJECT_STRUCTURE, defense_demo_guide
+├── docs/                         # ВКР, 01–09, PROJECT_GUIDE, PROJECT_STRUCTURE, defense_*
 ├── examples/                     # JSON для API/CLI
 ├── notebooks/
 │   └── eda.ipynb
